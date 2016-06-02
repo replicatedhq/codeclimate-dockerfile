@@ -2,15 +2,13 @@
 
 This is a CodeClimate engine that implements a [Dockerfile linter](https://github.com/replicatedhq/dockerfilelint).
 
-## Testing
-Start unit tests with `npm test`
-
 ## Running
 
 Install the CodeClimate CLI:
 ```shell
 curl -L https://github.com/codeclimate/codeclimate/archive/master.tar.gz | tar xvz
 cd codeclimate-* && sudo make install
+cd ..
 ```
 
 Build this container:
