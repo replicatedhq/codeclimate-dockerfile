@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+var Analyzer = require('../lib/analyzer');
+var analyzer = new Analyzer();
+
+analyzer.runEngine();

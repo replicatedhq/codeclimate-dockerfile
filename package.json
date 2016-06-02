@@ -1,0 +1,36 @@
+{
+  "name": "Dockerfilelint",
+  "description": "Codeclimate engine engine for linting a Dockerfile",
+  "version": "0.1.5",
+  "main": "./lib/dockerfilelint.js",
+  "dependencies": {
+    "dockerfilelint": "^1.1.1",
+    "glob": "6.0.1"
+  },
+  "devDependencies": {
+    "chai": "3.4.1",
+    "mocha": "2.3.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "bin",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/replicatedhq/dockerfilelint.git"
+  },
+  "keywords": [
+    "dockerfile",
+    "linter",
+    "replicated"
+  ],
+  "engines": {
+    "node": ">=4.0"
+  },
+  "license": "MIT"
+}

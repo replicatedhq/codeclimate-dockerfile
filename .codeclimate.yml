@@ -1,0 +1,8 @@
+engines:
+  dockerfilelint:
+    enabled: true
+  eslint:
+    disabled: true
+exclude_paths:
+- "**/*.md"
+- "bin/dockerfilelint"

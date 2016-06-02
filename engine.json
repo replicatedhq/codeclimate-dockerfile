@@ -1,0 +1,11 @@
+{
+  "name": "dockerfilelint",
+  "description": "Discover problems in your Dockerfile",
+  "maintainer": {
+    "name": "Marc Campbell",
+    "email": "marc.e.campbell@gmail.com"
+  },
+  "test_paths": [
+    "/usr/src/app/test/integration/"
+  ]
+}
